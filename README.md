@@ -1,7 +1,18 @@
 # Simplest sass boilerplate
-Snippet like container to reuse it. It should be compact and contain minimum necesary elementst to be improved in various projests.
+Snippet-like container, compact and contain minimum necessary elementst to be improved in various projests.
 This is suposed to work along with some other css libraty like Bootstrap.
-## feature list
+
+## Structure
+/components
++base
++buttons
++forms
++menus
++tables
++typography
+variables
+
+## Feature list
 - typography styles
 - table styles
 - form styles
@@ -10,4 +21,4 @@ This is suposed to work along with some other css libraty like Bootstrap.
 - base // i write here code for html elements and if it grows i refactor it to specific components
 
 ### Credits
-Bootstrap, Foundation for Sites by ZURB, Purity III
+Inspired by Bootstrap, Foundation for Sites by ZURB, Purity III css code.
