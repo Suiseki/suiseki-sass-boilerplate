@@ -1,0 +1,57 @@
+/*colors*/
+
+// Grays
+// -------------------------
+
+$gray-darker:            #222; //13.5% black
+$gray-dark:              #404040; //75% black
+$gray:                   #808080; //50% black
+$gray-light:             #999;	//40% black
+$gray-lighter:           #e5e5e5; //25% black
+$gray-lightest:          #f4f4f4; //9.5% black
+
+
+// Brand colors
+// -------------------------
+
+$brand-primary:         black;
+$brand-secondary:       #464b56;
+
+// Box-backgrounds
+// -------------------------
+
+$bcg-main: #fff;
+$bcg-secondary: $gray-lightest;
+
+
+// Categories
+// -------------------------
+
+$cat-inactive:         #464b56;
+$cat-active:     		#37813c;
+
+// fonts
+// -------------------------
+
+$main-font-family: 'Ubuntu', Tahoma, sans-serif; 
+
+
+// Links
+// -------------------------
+
+$link-color:            $brand-primary;
+$link-hover-color:      darken($link-color, 15%);
+
+$headings-color: $brand-primary;
+
+
+$h1-fontsize: 4.2rem !default;
+$h2-fontsize: 3.56rem !default;
+$h3-fontsize: 2.92rem !default;
+$h4-fontsize: 2.28rem !default;
+$h5-fontsize: 1.64rem !default;
+$h6-fontsize: 1rem !default;
+
+$headings-margin-bottom: 15px;
+$headings-font-weight: 600;
+$headings-line-height: 1.5;
